@@ -11,7 +11,7 @@ Backend: Solidity, Node.js
 
 Project initiated and created for Hackathon: Sustainable Blockchain Hackathon 
 
-Live Dapp - https://nftafrica.vercel.app/
+Live Dapp - https://mynftafrica.vercel.app/
 
 Youtube: https://youtu.be/BRWQtVbISGs
 
