@@ -7,11 +7,20 @@ const truncateAddress = (address) => `${address.slice(0, 8)}...${address.slice(-
 
 const uauth = new UAuth({
   clientID: "0e876f9b-988d-40e2-996a-9d941b76994a",
+  redirectUri: "https://nftafrica-glochain.vercel.app/explore",
+  scope: "openid wallet"
+}
+                        
+  /*
+  clientID: "0e876f9b-988d-40e2-996a-9d941b76994a",
   redirectUri:
     process.env.NODE_ENV === "production"
       ? "https://nftafrica-glochain.vercel.app/explore"
       : "http://localhost:3000",
-});
+}
+*/
+                        
+);
 
 const ConnectWallet = () => {
   const [haveMetamask, sethaveMetamask] = useState(true);
