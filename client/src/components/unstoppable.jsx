@@ -9,7 +9,7 @@ const uauth = new UAuth({
   clientID: "0e876f9b-988d-40e2-996a-9d941b76994a",
   redirectUri:
     process.env.NODE_ENV === "production"
-      ? "https://mynftafrica.vercel.app"
+      ? "https://nftafrica-glochain.vercel.app/explore"
       : "http://localhost:3000",
 });
 
