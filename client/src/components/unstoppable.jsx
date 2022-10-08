@@ -78,7 +78,7 @@ const ConnectWallet = () => {
       )}
       {address ? (
         <>
-          <div className="">
+          <div className="mt-10 space-x-1 text-2xl sm:text-4xl sm:space-x-3 font-bold tracking-wide py-7 px-10 sm:px-14 border border-orange-500 text-orange-500 bg-white outline-none rounded-l-full rounded-r-full capitalize hover:bg-orange-500 hover:text-red-500 transition-all hover:shadow-orange">
 
             {truncateAddress(address)}
 
